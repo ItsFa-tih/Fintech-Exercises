@@ -1,0 +1,14 @@
+# Assign a variable to stock price. 
+#limit_price=input()
+#print("You entered your order at the price of USD" + limit_price)
+
+# create two variables and assign current and original price
+
+current_price = input()
+float(current_price)
+print('You entered' + "=" + current_price)
+original_price = input()
+float(original_price)
+print ('You entered' + "=" + original_price)
+percent_increase = (current_price -- original_price) / original_price * 100
+print('Your rate of return is' + "=" + percent_increase)
